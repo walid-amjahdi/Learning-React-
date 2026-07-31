@@ -1,6 +1,14 @@
 export function Main()
 {
     return (
-        <h1>Main Content to this page from jsx !</h1>
-    )
+        <>
+        <h2>a title for the list :</h2>
+        <ul>
+            <li>first</li>
+            <li>second</li>
+            <li>third</li>
+            <li>fourth</li>
+        </ul>
+        </>
+    )    
 }
