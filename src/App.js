@@ -1,16 +1,12 @@
-import './App.css';
-import { Main } from './Components/Main';
-import { Logo } from './Components/Logo';
-import { Page } from './Components/Page';
-import { Footer } from './Components/Footer';
+import './Styles/App.css';
+import { Header } from './Components/Header';
+import { Entry } from './Components/Entry';
 
 function App() {
   return (
     <>
-      <Logo />
-      <Main />
-      <Page />
-      <Footer />
+      <Header />
+      <Entry />
     </>
   );
 }
