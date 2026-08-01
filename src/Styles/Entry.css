@@ -4,15 +4,15 @@
     align-items: center;
     background-color: #444a55;
     border-radius: 10px;
-    margin: 0px 10px 0px 10px;
-    width: 100%;
     height: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .Entry > img
 {
     border-radius: 10px;
     margin: 10px;
-    height: 100%;
+    max-width: 40%;
 }
 .Entry-content > p
 {
