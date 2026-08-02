@@ -12,7 +12,8 @@
 {
     border-radius: 10px;
     margin: 10px;
-    max-width: 40%;
+    width: 40%;
+    max-height: 300px;
 }
 .Entry-content > p
 {
