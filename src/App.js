@@ -8,11 +8,8 @@ function App() {
 
   const entry = Data.map((data) => (
     <Entry 
-        img={data.img}
-        title={data.title}
-        country={data.country}
-        dates={data.dates}
-        text={data.text} 
+        key={data.id}
+        entry={data}
         />
   ))
 

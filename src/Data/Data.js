@@ -1,4 +1,4 @@
-export default [
+const Data = [
   {
     id: 1,
     img: {
@@ -50,18 +50,6 @@ export default [
   {
     id: 5,
     img: {
-      src: "https://images.unsplash.com/photo-1509127974888-41662999a14d",
-      alt: "Machu Picchu"
-    },
-    title: "Machu Picchu",
-    country: "📍Peru",
-    googleMapsLink: "https://maps.app.goo.gl/x1y2z3a4b5c6d7e8f",
-    dates: "05 Apr, 2023 - 15 Apr, 2023",
-    text: "Machu Picchu is a 15th-century Inca citadel situated on a mountain ridge 2,430 metres above sea level. Located in the Cusco Region, it is the most familiar icon of the Inca civilization."
-  },
-  {
-    id: 6,
-    img: {
       src: "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
       alt: "Cinque Terre"
     },
@@ -72,7 +60,7 @@ export default [
     text: "Cinque Terre is a string of centuries-old seaside villages on the rugged Italian Riviera coastline. In each of the 5 towns, colorful houses and vineyards cling to steep terraces."
   },
   {
-    id: 7,
+    id: 6,
     img: {
       src: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
       alt: "Burj Khalifa"
@@ -84,3 +72,5 @@ export default [
     text: "The Burj Khalifa is a skyscraper in Dubai. With a total height of 829.8 m (2,722 ft), it has been the tallest structure and building in the world since its topping out in 2009."
   }
 ];
+
+export default Data ;
